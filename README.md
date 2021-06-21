@@ -1,2 +1,2 @@
-# frantek-more-food-mod
-Mod para agregar más comida a Minecraft
+# frantek-cooking-mod
+Mod to add more food, meals and recipes to Minecraft.
