@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model" : "weedmod:block/weed_block"
+    }
+  }
+}

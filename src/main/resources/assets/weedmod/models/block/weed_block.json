@@ -1,0 +1,11 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures" : {
+    "up": "weedmod:block/weed_block_top",
+    "north": "weedmod:block/weed_block_side",
+    "east": "weedmod:block/weed_block_side",
+    "west": "weedmod:block/weed_block_side",
+    "south": "weedmod:block/weed_block_side",
+    "down": "weedmod:block/weed_block_top"
+  }
+}
