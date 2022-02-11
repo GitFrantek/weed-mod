@@ -1,5 +1,6 @@
 {
   "itemGroup.weedmod": "Weed mod",
   "item.weedmod.joint": "Joint",
-  "block.weedmod.weed_block": "Weed block"
+  "item.weedmod.marijuana": "Marijuana",
+  "block.weedmod.weed_block": "Cannabis block"
 }

@@ -1,7 +1,17 @@
 {
   "variants": {
-    "" : {
-      "model" : "weedmod:block/weed_block"
+    "" : {"model":"weedmod:block/weed_block"},
+    "axis=x": {
+      "model": "weedmod:block/weed_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "weedmod:block/weed_block"
+    },
+    "axis=z": {
+      "model": "weedmod:block/weed_block_horizontal",
+      "x": 90
     }
   }
 }

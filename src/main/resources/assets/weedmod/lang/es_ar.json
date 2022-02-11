@@ -1,5 +1,6 @@
 {
   "itemGroup.weedmod": "Fasito mod",
   "item.weedmod.joint": "Porro",
-  "block.weedmod.weed_block": "Bloque de prensado"
+  "item.weedmod.marijuana": "Marihuana",
+  "block.weedmod.weed_block": "Bloque de cannabis"
 }

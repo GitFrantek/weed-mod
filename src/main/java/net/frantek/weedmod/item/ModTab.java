@@ -8,7 +8,7 @@ public class ModTab {
 
     public static final CreativeModeTab MOD_TAB = new CreativeModeTab(WeedMod.MOD_ID) {
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.JOINT.get());
+            return new ItemStack(ModItems.MARIJUANA.get());
         }
     };
 

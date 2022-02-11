@@ -6,8 +6,8 @@ import net.frantek.weedmod.item.ModTab;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -21,7 +21,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, WeedMod.MOD_ID);
 
     public static final RegistryObject<Block> WEED_BLOCK = registerBlock("weed_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.GRASS)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK)));
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block) {
 

@@ -9,7 +9,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 public class ModItems {
 
-    private static final Integer DURABILITY = 8;
+    private static final Integer JOINT_DURABILITY = 8;
 
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, WeedMod.MOD_ID);
@@ -17,8 +17,13 @@ public class ModItems {
     public static final RegistryObject<Item> JOINT = ITEMS.register("joint",
             ()-> new Item(new Item.Properties()
                     .tab(ModTab.MOD_TAB)
-                    .durability(DURABILITY)
+                    .durability(JOINT_DURABILITY)
                     .setNoRepair()));
+
+    public static final RegistryObject<Item> MARIJUANA = ITEMS.register("marijuana",
+            ()-> new Item(new Item.Properties()
+                    .tab(ModTab.MOD_TAB)
+                    .stacksTo(Item.MAX_STACK_SIZE)));
 
 
 
